@@ -74,8 +74,10 @@
             }
 
 
-            & span{
+            & .profile{
                 color: black;
+                position: relative;
+                z-index: 9;
                 & i{
                    cursor: pointer;
                     font-size: 1.4rem;
@@ -84,7 +86,7 @@
 
                 & img {
                     cursor: pointer;
-                    width: 30px;
+                    width: 2rem;
                 }
             }
         }
@@ -108,6 +110,24 @@
 }
 
 
+.icon__img {
+    border-radius: 50%;
+}
 
+.profile__actions {
+    position: absolute;
+    top: 20%;
+    left: 150%;
+    width: 150px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    line-height: 2rem;
+    cursor: pointer;
+
+    & a {
+        margin-left: 1rem;
+    }
+}
 
 
