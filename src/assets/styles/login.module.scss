@@ -1,0 +1,36 @@
+.auth__form {
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    padding: 2.5rem;
+    border-radius: 10px;
+
+    & .buy__btn {
+        border: none;
+        outline: none;
+        padding: 8px 20px;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+        font-size: 1rem;
+        transition: all 0.4s ease;
+        &:hover {
+          background-color: rgb(35, 103, 199);
+        }
+      }
+
+    & p {
+        margin-top: 2rem;
+    }
+
+    & a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        transition: all 0.3s ease;
+        cursor: pointer;
+    
+        &:hover {
+          color: rgb(35, 103, 199);
+        }
+      }
+}

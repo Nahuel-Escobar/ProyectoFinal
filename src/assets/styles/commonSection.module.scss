@@ -1,0 +1,13 @@
+.common__section {
+    background: linear-gradient(#000000a8, #000000a8), url(../../assets/img/hero-img.png) no-repeat center center;
+    background-size: cover;
+    padding: 7rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & h1 {
+        color: white;
+        font-weight: 600;
+    }
+}

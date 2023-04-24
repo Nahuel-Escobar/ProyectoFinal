@@ -1,0 +1,55 @@
+footer {
+  margin-top: 7rem;
+  padding: 2rem 0rem;
+  background-color: rgb(9, 9, 79);
+
+  & .footer__text {
+    line-height: 30px;
+    font-size: 1rem;
+    color: rgb(227, 227, 227);
+  }
+
+  & .footer__quick__links {
+    & ul li {
+      background: transparent !important;
+      & a {
+        text-decoration: none;
+        color: rgb(227, 227, 227);
+
+        &:hover {
+          color: rgb(31, 179, 31);
+        }
+      }
+    }
+  }
+
+  & .quick__links__title {
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  & .footer__contact li span, .footer__contact li{
+    color: rgb(227, 227, 227);
+
+    & span {
+        font-size: 1.3rem;
+    }
+
+    & p {
+        font-size: .9rem;
+        margin: 0;
+        transition: all .3s ease;
+        &:hover {
+          color: rgb(31, 179, 31);
+        }
+    }
+  }
+
+  & .footer__copyright{
+    color: rgb(227, 227, 227);
+    font-size: 1rem;
+    margin: 1.5rem 0rem 0rem 0rem; 
+}
+
+
+}

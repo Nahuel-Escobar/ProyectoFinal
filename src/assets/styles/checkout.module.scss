@@ -1,0 +1,40 @@
+.checkout__cart {
+    padding: 1.2rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px; 
+
+    & h6, h4 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    & h4 {
+        border-top: 1px solid white;
+        padding: 10px;
+    }
+}
+input {
+  border: 2px solid rgb(220, 220, 220);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: start;
+}
+
+.buy__btn {
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: rgb(75, 179, 75);
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 10px auto;
+  transition: all 0.4s ease;
+  &:hover {
+    background-color: green;
+  }
+}
